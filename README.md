@@ -1,2 +1,3 @@
 # work.template.vscode
-vscode使用过程中的相关配置信息
+
+vscode 使用过程中的相关配置信息
