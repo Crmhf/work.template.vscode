@@ -1,7 +1,8 @@
 # work.template.vscode
 
-vscode 使用过程中的相关配置信息
+## vscode 使用过程中的相关配置信息
 
+```js
 {
 "editor.tabSize": 2,
 "eslint.validate": [
@@ -35,3 +36,4 @@ vscode 使用过程中的相关配置信息
 "out": true, // true => output .css files (overridable per-file, see below)
 }
 }
+```
