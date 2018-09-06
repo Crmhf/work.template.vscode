@@ -13,6 +13,6 @@
 			"</style>",
 			"$2"
 		],
-		"description": "Log output to console"
+		"description": "vue 初始化代码"
 	}
 ```
