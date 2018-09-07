@@ -1,0 +1,19 @@
+{
+    "头部文件注释": {
+        "prefix": "#S",
+        "body": [
+            "/******************** (C) COPYRIGHT $CURRENT_YEAR ChiRong **********************************\r\n* File Name\t\t\t:  $TM_FILENAME\r\n* Author\t\t\t:  ChiRong\r\n* CPU Type\t\t\t:  ${2|NRF52810,NRF52832,STM32F103,STM32F4,ESP32|} \r\n* IDE\t\t\t\t:  ${3|IAR 8.22.1,Keil4,Keil5,PlatformIO IDE|} \r\n* Version\t\t\t:  V1.0\r\n* Date\t\t\t\t:  $CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR\r\n* Description\t\t:  $7\r\n*******************************************************************************/"
+        ],
+        "description": "在当前位置生成一段代码文件的头部注释"
+    },
+    "文件尾部注释": {
+        "prefix": "#E",
+        "body": "/******************* (C) COPYRIGHT $CURRENT_YEAR ChiRong *****END OF FILE******************/",
+        "description": "在当前位置生成一段代码文件的尾部注释"
+    },
+    "函数头部注释": {
+        "prefix": "#FS",
+        "body": "/*******************************************************************************\n*\t\t\t\t\t\t$1@$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE\n* Function Name\t\t:  \n* Description\t\t:  $2\n* Input\t\t\t\t:  None\n* Output\t\t\t:  None\n* Return\t\t\t:  None\n*******************************************************************************/",
+        "description": "在当前光标处添加一个函数头部注释"
+    },
+}

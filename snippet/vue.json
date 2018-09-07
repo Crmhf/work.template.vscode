@@ -1,0 +1,26 @@
+{
+    "vue 基础模板": {
+        "prefix": "vue",
+        "body": [
+            "<script>",
+            " export default {",
+            "   data () {",
+            "     return {\n",
+            "     }",
+            "   },",
+            "   components: {\n",
+            "   }",
+            " }",
+            "</script>\n",
+            "<template>",
+            " <div>\n",
+            " </div>",
+            "</template>\n",
+            "<style rel=\"stylesheet/scss\" lang=\"scss\" scope>\n",
+            " ",
+            "</style>",
+            "$2"
+        ],
+        "description": "Log output to console"
+    }
+}
